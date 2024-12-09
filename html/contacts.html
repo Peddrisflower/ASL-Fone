@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>principal {
+        width: 100%;
+        cursor: pointer;
+       
+        padding: 20px;
+        margin: 6px 0;
+        color: #b19cd9;
+        border-radius: 12px;
+       
+    
+        display: flex;
+        ;
+        align-items: center;
+    }
+    .principal img{
+      margin-left: 80px;
+      
+    }
+    
+    .principa_nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    
+    .ordentelist{
+        list-style: none;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        
+        margin-left: 70px;
+    }
+    .ordentelist li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+        margin-right: 50px;
+        font-family: sans-serif;
+        
+     
+    
+      
+    }
+    .ordentelist a{
+        list-style: none;
+        text-decoration: none;
+        color: #b19cd9;
+        margin-right: -40px;
+       
+        
+    
+    }
+    
+    .inicio{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 20px;
+        border: 1px solid red;
+        animation: inicio 5s infinite;
+    }
+    
+    @keyframes inicio {
+        25%{
+            border: 4px solid #b19cd9;
+        }
+    
+        50%{
+            border: 4px solid #EB1B24;
+        }
+    
+        75%{
+            border: 4px solid #b19cd9;
+        }
+    
+        100%{
+            border: 4px solid #EB1B24;
+        }
+    
+    }
+    
+     .inicio_titulo{
+        margin-left: 200px;
+        font-size: 2rem;
+    
+     }
+     
+    
+     .inicio_image{
+        width: 100%;
+        align-self: center;
+     }</style>
+</head>
+<body>
+    <header class="principal">
+        
+        <img  src="../img/image 4 1.png" alt="">
+        <nav class=" principa_nav">
+            <ol class="ordentelist">
+                <li ><a style="color: #EB1B24;" href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="index.html">Products</a></li>
+                <li><a href="">Contact</a></li>
+            </ol>
+        </nav>
+    </header>
+</body>
+</html>
